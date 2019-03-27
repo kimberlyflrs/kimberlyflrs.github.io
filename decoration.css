@@ -1,5 +1,18 @@
 /*footer*/
 
-#footer{
+#footer, #navigation, h3{
   text-align: center;
+}
+
+h1, h3, p, h5{
+  font-family: 'Montserrat', sans-serif!important;
+}
+
+i{
+  padding: 15px;
+  text-align: center;
+}
+
+.row{
+  margin-bottom: 20px;
 }
