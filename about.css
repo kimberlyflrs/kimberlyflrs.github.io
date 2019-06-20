@@ -1,0 +1,35 @@
+/*footer*/
+
+#footer, #navigation, h3, h1, h4{
+  text-align: center;
+}
+
+h1, h3, p, h4{
+  font-family: 'Montserrat', sans-serif!important;
+}
+
+i{
+  padding: 15px;
+  text-align: center;
+}
+
+.row{
+  margin-bottom: 20px;
+}
+
+#about_pic{
+  padding-left: 30px;
+}
+
+#about{
+  padding-right: 30px;
+}
+
+
+@media (min-width: 576px) { ... }
+
+@media (min-width: 768px) { ... }
+
+@media (min-width: 992px) { ... }
+
+@media (min-width: 1200px) { ... }
