@@ -7,12 +7,74 @@
     height: auto;
     width: 100%;
     max-width: 400px;
-    
+
   }
   #footer, #body{
     text-align: center;
   }
+/*  footer{
+    background-color: #c5dbeb;
+  }*/
+  #menu{
+    font-size: 35px;
+  }
+
+  #navigation{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+
+  }
+
+  i{
+    color: #957362;
+    padding: 10px;
+  }
+
+  /* Dropdown Button */
+  .dropbtn {
+    color: #957362;
+    padding: 16px;
+    cursor: pointer;
+  }
+
+
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+    z-index: 1;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color of dropdown links on hover */
+  /*.dropdown-content a:hover {background-color: #ddd}*/
+
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
 }
+
+
 
 /*
 @media (min-width: 767.98px) {

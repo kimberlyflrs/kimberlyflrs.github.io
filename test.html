@@ -22,6 +22,8 @@
 
      <!--End BootStrap-->
 
+     <!--runs javascript file-->
+     <script src="test.js"></script>
      <!--fonts-->
      <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet" type='text/css'>
 
@@ -31,10 +33,22 @@
   <nav class="navigation-bar" id="navigation">
     <div class="container-fluid">
         <div class="row">
-          <a href="index.html"><img src="logo.png" height="65"></a>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="assests\Resume2019.pdf">Resume</a></li>
+          <div class="col">
+            <a href="index.html"><img src="logo.png" height="65"></a>
+          </div>
+
+<!--https://www.w3schools.com/howto/howto_js_dropdown.asp-->
+          <div>
+          <div class="dropdown">
+          <i class="fas fa-bars dropbtn" id="menu" onclick="myFunction()"></i>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="projects.html">Projects</a>
+            <a href="about.html">About</a>
+            <a href="assests\Resume2019.pdf">Resume</a>
+          </div>
+</div>
+</div>
+
         </div>
     </div>
   </nav>
