@@ -30,7 +30,9 @@
     <title>Kimberly x Design</title>
   </head>
 
-  <nav class="navigation-bar" id="navigation">
+
+<!--small screen-->
+  <nav class="navigation-bar" id="navigation-small">
     <div class="container-fluid">
         <div class="row">
           <div class="col">
@@ -38,26 +40,50 @@
           </div>
 
 <!--https://www.w3schools.com/howto/howto_js_dropdown.asp-->
-          <div>
           <div class="dropdown">
           <i class="fas fa-bars dropbtn" id="menu" onclick="myFunction()"></i>
           <div id="myDropdown" class="dropdown-content">
             <a href="projects.html">Projects</a>
-            <a href="about.html">About</a>
+            <a href="test.html">About</a>
             <a href="assests\Resume2019.pdf">Resume</a>
           </div>
-</div>
-</div>
+        </div>
+
 
         </div>
     </div>
   </nav>
 
+  <nav class="navigation-bar" id="tablap-nav">
+    <div class="container-fluid">
+      <div class="row links">
+        <div class="col-2">
+          <a href="projects.html" class="link">Artwork</a>
+        </div>
+        <div class="col-2">
+          <center>
+          <a href="projects.html" class="link">Projects</a>
+        </center>
+        </div>
+        <div class="col-4">
+          <center>
+          <a href="index.html"><img src="logo.png" height="65"></a>
+        </center>
+        </div>
+        <div class="col-4">
+          <a href="test.html" class="link">About</a>
+          <a href="assests\Resume2019.pdf" class="link">Resume</a>
+      </div>
+    </div>
+    <hr>
+  </nav>
+
   <body>
+    <!--small size mobile-->
     <div class="container-fluid" id="body">
     <div class="row">
       <div class="column-1">
-      <img src="assests/about_pic.png" align="left" id="about_pic">
+      <img src="assests/kim_pic.png" align="left" id="about_pic">
       </div>
       <div class="column-2">
       <h1>Hello!</h1>
@@ -81,6 +107,44 @@
       </div>
     </div>
     </div>
+
+    <!--tablet/laptop size -->
+    <div class="container-fluid" id="tablap">
+    <div class="row">
+      <div class="col-6">
+        <center>
+          <img src="assests/about_pic.png" id="about_pic">
+        </center>
+      </div>
+      <div class="col-6 about">
+
+      <div class="intro">
+      <h1>Hello!</h1>
+      <h3>My name is Kimberly Flores</h3>
+      <h4>I am an aspiring front-end designer</h4>
+      <br>
+      <hr>
+      </div>
+
+      <p><br>I am a recent graduate from the University of California, Irvine(UCI) where I obtained a B.S. in Informatics with a specialization in
+      Human Computer Interaction.</p>
+      <p>
+        Besides designing and coding, I love to help the people in my community. I have had multiple positions
+         on the campus which advocates for helping first-year students transition to the university. I think it
+         is a beautiful thing to see people grow through the advice they have taken. Having conversations with
+         them and learning how they changed from the beginning of the school year to the end, is just mind-blowing.
+      </p>
+      <p>
+        My passion for wanting to help others and understanding their needs, helps me when I create
+        designs for technologies. It allows me to make these beautiful user-centric designs tailored for them.
+      </p>
+      <p>If you have any opportunities for me, feel free to send me a message!</p>
+    </div>
+
+      </div>
+    </div>
+
+
   </body>
 
   <footer>

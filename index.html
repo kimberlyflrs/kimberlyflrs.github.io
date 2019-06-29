@@ -22,8 +22,10 @@
 
      <!--End BootStrap-->
 
+     <script src="test.js"></script>
+
      <!--fonts-->
-     <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet" type='text/css'>
+     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
 
     <title>Kimberly x Design</title>
   </head>
@@ -34,6 +36,89 @@
 
   </<header>-->
 
+  <!--small screen-->
+    <nav class="navigation-bar" id="navigation-small">
+      <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <a href="index.html"><img src="logo.png" height="65"></a>
+            </div>
+
+  <!--https://www.w3schools.com/howto/howto_js_dropdown.asp-->
+            <div class="dropdown">
+            <i class="fas fa-bars dropbtn" id="menu" onclick="myFunction()"></i>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="projects.html">Projects</a>
+              <a href="test.html">About</a>
+              <a href="assests\Resume2019.pdf">Resume</a>
+            </div>
+          </div>
+
+
+          </div>
+      </div>
+    </nav>
+
+
+<body>
+    <div class="container-fluid">
+      <div class="row" id=Introduction>
+        <div class="column-1">
+          <p>Hi, I'm Kim, an aspiring front-end designer from Los Angeles, California.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column-1">
+          <p class="recent">Recent Work</p>
+        </div>
+    </div>
+
+    <!--food journal-->
+    <div class="row">
+      <div class="column-1">
+        <center>
+        <img src="assests/foodjournal.png" height="300" >
+        </center>
+      </div>
+      <div class="column-1 project">
+        <center><p class="title">Food Journal</p><p class="role">App Design, Assistive Device Coding</p></center>
+      </div>
+    </div>
+    <!--vidpt-->
+    <div class="row">
+      <div class="column-1">
+        <center>
+        <img src="assests/vidpt.png" height="300" >
+        </center>
+      </div>
+      <div class="column-1 project">
+        <center><p class="title">VidPT</p><p class="role">App Design and Development</p></center>
+      </div>
+    </div>
+    <!--ecostat-->
+    <div class="row">
+      <div class="column-1">
+        <center>
+        <img src="assests/ecostat.png" height="300" >
+      </center>
+      </div>
+      <div class="column-1 project">
+        <center><p class="title">Eco Stat</p><p class="role">User Experience Research</p></center>
+      </div>
+    </div>
+
+<!--view more button-->
+    <div class="row">
+      <div class="column-1 view">
+        <center><a href="projects.html" class="view-more">View More</a></center>
+      </div>
+    </div>
+    <hr>
+
+</body>
+
+<!--
   <nav class="navigation-bar" id="navigation">
     <div class="container-fluid">
       <div class="row">
@@ -51,7 +136,6 @@
     </div>
   </nav>
 
-<!--introduction and sample work-->
   <body>
     <div class="container-fluid">
 
@@ -92,12 +176,12 @@
 
     </div>
   </body>
-
+-->
 
 <!--contact info-->
   <footer>
     <div class="container-fluid" id="footer">
-      <h5>Contact</h5>
+      <p id="contact">Contact</p>
       <!--icons-->
       <i class="fas fa-envelope fa-lg"></i>
       <a href="https://www.linkedin.com/in/kimberly-m-flores/"><i class="fab fa-linkedin fa-lg" ></i></a>
