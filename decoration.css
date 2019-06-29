@@ -142,7 +142,7 @@ i{
 
 
 /*767.98*/
-@media (min-width: 575.99px) {
+/*@media (min-width: 575.99px) {
   #about_pic{
     height: auto;
     width: 100%;
@@ -182,7 +182,7 @@ a.link{
 
 }
 
-/*
+
 @media (min-width: 991.98px) {
   .column-1, .column-2{
     width: 50%
