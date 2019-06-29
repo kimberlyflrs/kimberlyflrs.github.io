@@ -12,7 +12,7 @@
   #footer, #body{
     text-align: center;
   }
-  #tablap, #tablap-nav{
+  #tablap, #aboutpage, #homepage{
     display:none;
   }
   #menu{
@@ -143,23 +143,48 @@
     padding: 10px;
   }
 
-#tablap-nav{
-  padding-bottom: 40px;
-}
+  #aboutpage{
+    padding-bottom: 40px;
+  }
 
 
   .about{
     padding: 50px;
   }
 
-a.link{
-  padding-left: 40px;
-  font-size: 20px;
-  color: black;
+  a.link, .recent{
+    padding-left: 40px;
+    font-size: 20px;
+    color: black;
+  }
+
+  .links{
+    margin: auto;
+  }
+
+  #Introduction{
+    text-align: center;
+    padding: 150px;
+    font-size: 30px;
+    background-image:url(sand.gif);
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Raleway', sans-serif;
+  }
+.fj{
+  padding-bottom: 60px;
 }
-.links{
-  margin: auto;
+
+.recent{
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  padding:30px;
 }
+
+.leftproj{
+  padding-left: 20px;
+}
+
 
 }
 
