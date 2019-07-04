@@ -92,50 +92,6 @@ i{
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
   .show {display:block;}
 
-  #Introduction{
-    text-align: center;
-    padding: 100px;
-    font-size: 30px;
-    background-image:url(sand.gif);
-    background-repeat: no-repeat;
-    background-size:cover;
-    font-family: 'Raleway', sans-serif;
-  }
-
-  .project{
-    font-size: 20px;
-    padding-bottom: 30px;
-  }
-
-  .title{
-    font-size:20px;
-    font-family: 'Raleway', sans-serif;
-    padding-top: 5px;
-  }
-
-  .role{
-    font-size: 15px;
-  }
-
-  p, .view-more, .recent, .role {
-    font-family: 'Raleway', sans-serif;
-  }
-
-  .view-more{
-    background-color: #628395;
-    border-radius: 10px;
-    color: white;
-    padding: 10px;
-  }
-
-.recent{
-  font-size: 25px;
-  padding-left: 10px;
-}
-
-#contact{
-  font-size: 20px;
-}
 
 }
 

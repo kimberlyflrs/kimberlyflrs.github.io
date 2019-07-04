@@ -20,8 +20,6 @@
   }
 
   #navigation-small{
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
     top: 0;
     background-color: rgba(255, 255, 255, 0.8);
 
@@ -72,6 +70,16 @@
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
   .show {display:block;}
 
+  #banner{
+    text-align: center;
+    padding: 100px;
+    font-size: 30px;
+    background-image:url(assests/fjbanner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Raleway', sans-serif;
+  }
 
     #Introduction{
       text-align: center;
@@ -98,7 +106,7 @@
       font-size: 15px;
     }
 
-    p, .view-more, .recent, .role {
+    p, .view-more, .recent, .role, #project_title {
       font-family: 'Raleway', sans-serif;
     }
 
@@ -116,6 +124,33 @@
 
   #contact{
     font-size: 20px;
+  }
+
+  #tester{ /*check what this is*/
+    text-align: center;
+    padding: 14px 16px;
+  }
+
+/*project info*/
+  .bg{
+    background-color: #fafcff;
+  }
+
+  #smallfj{
+    padding:0px 25px;
+  }
+
+  #project_title{
+    font-size: 30px;
+  }
+
+  #summary{
+    font-style: italic;
+    font-size: 20px;
+  }
+
+  .bold{
+    font-weight: bold;
   }
 
 }
@@ -158,9 +193,7 @@
     color: black;
   }
 
-  .links{
-    margin: auto;
-  }
+
 
   #Introduction{
     text-align: center;
@@ -171,6 +204,18 @@
     background-size:cover;
     font-family: 'Raleway', sans-serif;
   }
+
+  #banner{
+    text-align: center;
+    padding: 150px;
+    font-size: 30px;
+    background-image:url(assests/fjbanner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Raleway', sans-serif;
+  }
+
 .fj{
   padding-bottom: 60px;
 }
@@ -210,6 +255,34 @@
 p, .view-more, .recent, .role {
   font-family: 'Raleway', sans-serif;
 }
+
+img.proimg:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+/*project info*/
+  .bg{
+    background-color: #fafcff;
+  }
+
+  #smallfj{
+    padding:0px 120px;
+  }
+
+  #project_title{
+    font-size: 30px;
+  }
+
+  #summary{
+    font-style: italic;
+    font-size: 20px;
+  }
+
+  .bold{
+    font-weight: bold;
+  }
+
 
 }
 
