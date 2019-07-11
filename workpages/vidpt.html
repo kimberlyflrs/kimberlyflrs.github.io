@@ -5,12 +5,12 @@
     <meta charset="utf-8">
     <meta name="author" content="Kimberly Flores">
     <meta name="description" content="A design portfolio">
-    <link rel="stylesheet" type="text/css" href="decoration.css" />
+    <link rel="stylesheet" type="text/css" href="../test.css" />
 
     <!--icons-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-    <link rel="shortcut icon" href="C:\Users\Kimberly Flores\Documents\GitHub\kimberlyflrs.github.io\assests\icon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="..\assests\icon.ico" type="image/x-icon" />
 
      <!--BootStrap-->
      <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,44 +21,219 @@
      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
      <!--End BootStrap-->
+     <script src="../test.js"></script>
 
      <!--fonts-->
-     <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet" type='text/css'>
+     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
 
-    <title>Kimberly x Design</title>
+    <title>Kimberly Flores</title>
   </head>
 
-  <nav class="navigation-bar" id="navigation">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-4">
-          <a href="projects.html">Projects</a>
+
+  <!--small screen-->
+    <nav class="navigation-bar" id="navigation-small">
+      <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <a href="../index.html"><img src="../logo.png" height="65"></a>
+            </div>
+
+  <!--https://www.w3schools.com/howto/howto_js_dropdown.asp-->
+            <div class="dropdown">
+            <i class="fas fa-bars dropbtn" id="menu" onclick="myFunction()"></i>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="../projects.html">Projects</a>
+              <a href="../test.html">About</a>
+              <a href="../assests/Resume2019.pdf">Resume</a>
+            </div>
+          </div>
+
+
+          </div>
+      </div>
+    </nav>
+
+  <!--tablet laptop-->
+    <nav class="navigation-bar" class="tablap-nav" id="homepage">
+      <div class="container-fluid">
+        <div class="row links">
+          <div class="col-2">
+            <a href="../projects.html" class="link">Artwork</a>
+          </div>
+          <div class="col-2">
+            <center>
+            <a href="../projects.html" class="link">Projects</a>
+          </center>
+          </div>
+          <div class="col-4">
+            <center>
+            <a href="../index.html"><img src="../logo.png" height="65"></a>
+          </center>
+          </div>
+          <div class="col-2">
+            <a href="../test.html" class="link">About</a>
+          </div>
+          <div class="col-2">
+            <a href="..\assests\Resume2019.pdf" class="link">Resume</a>
         </div>
-        <div class="col-4">
-          <a href="index.html"><img src="logo.png" height="65"></a>
-        </div>
-        <div class="col-4">
-          <a href="about.html">About</a>
-          <a href="assests\Resume2019.pdf">Resume</a>
+      </div>
+      <hr>
+    </nav>
+
+
+<body>
+  <div class="container-fluid" id="smallfj">
+    <!--banner across-->
+    <div class="row" id="banner">
+    </div>
+    <!--Title and subtitle-->
+    <div class="row bg">
+    <p class="col-md-12"id="project_title">VidPt</p>
+    <p class="col-md-12"id="summary">A mobile application that engages users in their physical therapy journey.</p>
+    </div>
+
+    <div class="row bg"><p class="bold col-md-1">Project: </p><p>Physical Therapy Application - Senior Capstone Project</p></div>
+    <div class="row bg"><p class="bold col-md-1">Sponser:</p><p>Michael Bise - Founder of VidPT</p></div>
+    <div class="row bg"><p class="bold col-md-1">Team:</p> <p>Shirby Wang, Amanda Hernandez, Nickolas Saba</p></div>
+    <div class="row bg"><p class="bold col-md-1">Role: </p><p>Front-End Code and UX/UI Design</p></div>
+    <div class="row bg"><p class="bold col-md-1">Duration: </p><p>6 months(September 2018-March 2019)</p></div>
+    <div class="row bg"><p class="bold col-md-1">Platform:</p><p>Mobile Application</p></div>
+
+
+    <div class="row">
+      <div class="column-1 col-md-12">
+        <p class="title">Problem Statement</p><p class="subtitle">Going through physical therapy can be a lonely and long process.
+        The person can feel unmotivated and discouraged from the complicated paper instructions given to them. There may be little support for
+        them.</p>
+        <p class="subtitle">VidPT aims to help users conquer their physical therapy with informative
+        exercise videos, progress tracking, and a supportive community. It aims to help users build
+       positive habits towards recovery.</div>
+    </div>
+
+    <div class="row">
+      <p class="title col-md-1">Project Goals</p>
+      <div class="column-1">
+        <p>1. Learn: Allow users to know about their current injury status. <br>
+        2. Build: Allow users to have a personalized yet customizable routine. <br>
+        3. Measure: Be able to track progress such as pain levels and strength.<br>
+        4. Rally: Interaction amongst users for motivation.<br>
+        5. Compete: Allow users to compete with one another in their final stage of recovery.</p>
       </div>
     </div>
-  </nav>
 
-<h1>VidPt</h1>
-<!--Image in the middle
-Put text in the middle of the page with spacing on right and left maybe col-4-->
-<p>Hello! My name is Kimberly Flores and I am an aspiring UX designer. Currently I am a fourth year
-  student at the University of California, Irvine(UCI) obtaining a B.S. in Informatics with a specialization in
-Human Computer Interaction.</p>
-<p>
-  Besides designing and coding, I love to help the people in my community. I have had multiple positions
-   on the campus which advocates for helping first-year students transition to the university. I think it
-   is a beautiful thing to see people grow through the advice they have taken. Having conversations with
-   them and learning how they changed from the beginning of the school year to the end, is just mind-blowing.
-</p>
+<!--Process-->
+  <div class="row">
+    <div class ="column-1">
+      <p class="title col-md-12">Process</p>
+        <div class="col-md-12"><p>The process followed an agile method were we designed and coded to our flexible requirements.
+          The team met with Michael periodically to discuss the requirements of the application.
+          We discussed the specific requirements and separated them into functional
+        and non-functional requirements. We created a use case diagram and UML diagram to further
+      understand what needed to be done.</p>
+      <p>
+        Interviews were conducted with former physical therapy users and a physical therapist. Personas were made
+         to understand the user base.
+         We made sure all of the workouts were approved and reviewed the HIPPA law. A disclaimer was added in order
+         for users to understand that this is not a replacement for treatment but a supplementary tool.
+      </p>
+    </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class ="column-1">
+      <p class="subtitle col-md-12">Front-End Development</p>
+        <p class="col-md-12">The team used the React framework to create the mobile application.
+          I translated the sketches into the user interface and incorporated node packages to build
+          the progress and survey components.
+        </p>
+    </div>
+  </div>
+
+  <div class="row bg">
+    <div class ="column-1">
+      <p class="title col-md-12">Final MVP</p>
+        <div class="col-md-12"><img src="../placeholder_image.png" height="300px"></div>
+    </div>
+  </div>
+
+  <div class="row bg">
+    <div class ="column-1">
+      <p class="subtitle col-md-12"><u>Learn</u></p>
+        <div class="col-md-12"><img src="../placeholder_image.png" height="300px"></div>
+        <p class="col-md-12">
+          When users first sign up, they take a quick survey to pinpoint their injury status.
+          The answers are then processed through an algorithm that will select the best routine
+          for our user from the database.
+        </p>
+    </div>
+  </div>
+
+
+  <div class="row bg">
+    <div class ="column-1">
+      <p class="subtitle col-md-12"><u>Measure</u></p>
+        <div class="col-md-12"><img src="../placeholder_image.png" height="300px"></div>
+        <p class="col-md-12">
+          Our users can see their progress through the graph and individual entries.
+          Progress that is tracked is performance and range of motion. This information
+          comes from the initial questionnaire and a progress survey that is given after
+          every  x amount of workouts.
+        </p>
+    </div>
+  </div>
+
+  <div class="row bg">
+    <div class ="column-1">
+      <p class="subtitle col-md-12"><u>Build</u></p>
+        <div class="col-md-12"><img src="../placeholder_image.png" height="300px"></div>
+        <p class="col-md-12">
+          Users are given a set of exercises they can pick from according to their current stage.
+          They can formulate a six exercise routine that contains the respective amount of reps/sets,
+          video, and step by step instructions.
+        </p>
+    </div>
+  </div>
+
+  <div class="row bg">
+    <div class ="column-1">
+      <p class="subtitle col-md-12"><u>Compete/Rally</u></p>
+        <div class="col-md-12"><img src="../placeholder_image.png" height="300px"></div>
+        <p class="col-md-12">
+          Users earn points after each workout which advances their rank. If users are consistent
+          in their routine, they will start earning a streak.
+
+          In the future, users will be able to share their experiences through a community section.
+        </p>
+    </div>
+  </div>
+
+    <!--Tools Used ionic, google voice, amazon developer, html javascript css3, adobe sketch, firebase-->
+    <div class="row">
+      <p class="title col-md-12">Stack</p>
+      <center>
+      <div class="column-1">
+        <img src="../assests/tools/AVS.png" height="150px">
+        <img src="../assests/tools/ionic-logo.png" height="100px">
+
+        <img src="../assests/tools/firebase_logo.png" height="100px">
+        <img src="../assests/tools/html_5.png" height="100px">
+        <img src="../assests/tools/css_3.png" height="100px">
+        <img src="../assests/tools/javascript.png" height="100px">
+
+        <img src="../assests/tools/Adobe_XD.png" height="100px">
+        <img src="../assests/tools/photoshop-logo.png" height="100px">
+      </div>
+    </center>
+    </div>
+  </div>
+</body>
+
+
 
   <!--contact info-->
     <footer>
+      <hr>
       <div class="container-fluid" id="footer">
         <h5>Contact</h5>
         <!--icons-->
