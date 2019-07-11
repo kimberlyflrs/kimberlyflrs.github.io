@@ -81,6 +81,17 @@
     font-family: 'Raleway', sans-serif;
   }
 
+  #esbanner{
+    text-align: center;
+    padding: 100px;
+    font-size: 30px;
+    background-image:url(assests/esbanner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Raleway', sans-serif;
+  }
+
     #Introduction{
       text-align: center;
       padding: 100px;
@@ -136,7 +147,7 @@
     background-color: #fafcff;
   }
 
-  #smallfj{
+  #smallfj, #smalles{
     padding:0px 25px;
   }
 
@@ -218,6 +229,17 @@
     padding: 150px;
     font-size: 30px;
     background-image:url(assests/fjbanner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  #esbanner{
+    text-align: center;
+    padding: 150px;
+    font-size: 30px;
+    background-image:url(assests/esbanner.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
