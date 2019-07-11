@@ -1,3 +1,10 @@
+#left{
+  align:left
+}
+
+#right{
+  align:right;
+}
 
 @media (max-width: 575.98px) {
   .column-1{
@@ -92,6 +99,17 @@
     font-family: 'Raleway', sans-serif;
   }
 
+  #vidbanner{
+    text-align: center;
+    padding: 100px;
+    font-size: 30px;
+    background-image:url(assests/vidptbanner1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Raleway', sans-serif;
+  }
+
     #Introduction{
       text-align: center;
       padding: 100px;
@@ -147,7 +165,7 @@
     background-color: #fafcff;
   }
 
-  #smallfj, #smalles{
+  #smallfj, #smalles, #smallvid{
     padding:0px 25px;
   }
 
@@ -246,6 +264,17 @@
     font-family: 'Raleway', sans-serif;
   }
 
+  #vidbanner{
+    text-align: center;
+    padding: 100px;
+    font-size: 30px;
+    background-image:url(assests/vidptbanner1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Raleway', sans-serif;
+  }
+
 .fj{
   padding-bottom: 60px;
 }
@@ -296,7 +325,7 @@ img.proimg:hover {
     background-color: #fafcff;
   }
 
-  #smallfj{
+  #smallfj, #smalles, #smallvid{
     padding:0px 120px;
   }
 
