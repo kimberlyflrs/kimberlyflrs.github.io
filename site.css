@@ -1,0 +1,110 @@
+/*document*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    opacity: 1;
+    transition: 1s opacity;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+.row{
+  padding: 5px 50px;
+}
+
+
+/*text*/
+h1,h2,h3,h4,h6,p{
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.gray{
+  color: #999999;
+}
+
+h4{
+  padding-top: 5px;
+}
+
+/*home page*/
+.banner{
+  height: 100%;
+}
+
+
+.home{
+  text-align: left;
+  min-height: 65vh;
+  width: 100%;
+  padding: 16vh 20px 150px 10px;
+  color: #000000;
+}
+
+.about{
+  text-align: middle;
+  min-height: 65vh;
+  width: 100%;
+  padding: 16vh 20px 200px 10px;
+  color: #000000;
+}
+
+.casestudy{
+  text-align: left;
+  min-height: 40vh;
+  width: 100%;
+  padding: 16vh 20px 150px 10px;
+  color: #000000;
+}
+
+.footer{
+  text-align: middle;
+  min-height: 15vh;
+  width: 100%;
+  padding: 16vh 20px 150px 10px;
+  color: #000000;
+}
+
+#portfolio-links a:hover{
+  opacity: 0.5;
+}
+
+.blue, .fa-angle-down{
+  color: #5EB1BF;
+}
+
+.hoverimg {
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+/*vidpt*/
+
+.vpt{
+  color:#4669DB;
+}
+
+.casephoto{
+  max-width:70%;
+  height: auto;
+}
+
+.personas{
+  max-width:80%;
+  height:auto;
+}
+
+.solutionpics{
+  max-width:50%;
+  height:auto;
+}
