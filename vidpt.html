@@ -2,7 +2,7 @@
 <html>
 
   <head>
-    <title>Kimberly Flores | UX</title>
+    <title>Kimberly Flores | VidPT</title>
     <meta charset="utf-8">
     <meta name="author" content="Kimberly Flores">
     <meta name="description" content="A design portfolio">
@@ -13,6 +13,7 @@
 
     <!--icons-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 
      <!--BootStrap-->
      <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,41 +24,42 @@
      <!--fonts-->
      <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
      <script src="effects.js"></script>
+    <link rel="shortcut icon" href="plant.ico" />
   </head>
 
 <body>
   <script>document.body.className += ' fade-out';</script>
   <!--navigation bar-->
-    <nav class="navbar sticky-top navbar-custom navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-      <a class="blue" href='index.html'>Kimberly Flores</a>
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-          <span><i class="fas fa-bars"></i></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarMenu">
-      <ul class="navbar-nav ml-auto justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link active" href="index.html">Work</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Resume</a>
-        </li>
-      </ul>
-    </div>
-    </div>
-  </nav>
+  <nav class="navbar sticky-top navbar-custom navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+    <img src="plant.ico" class="pad">
+    <a class="blue bold" href='index.html'>Kimberly Flores</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+        <span><i class="fas fa-bars"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMenu">
+    <ul class="navbar-nav ml-auto justify-content-end text-center">
+      <li class="nav-item">
+        <a class="nav-link blue active" href="index.html">Work</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="KimberlyFloresResume.pdf">Resume</a>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
 
 
-<div class="margin">
 <!--title info-->
 <div>
   <div class="container">
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <h1 class="vpt bold">VidPT</h1>
+        <h1 class="vpt bold">VidPT Redesign</h1>
       </div>
     </div>
 
@@ -83,16 +85,41 @@
 <!--problem statement-->
 <div class="row">
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-  <img src="assests/vidpt-problem.jpg" class="personas">
 </div>
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 <h4 class="bold vpt">problem statement</h4>
 <p>
-  The physical therapy process can be an overwhelming experience to the patient.
-  Patients may not start their rehab routine immediately(perhaps months later) due to
-  finding a facility that accepts their medical insurance. And once they start the process,
-  patients are often given poorly sketched drawings or instructions explaining the exercises
-  they need to do. How can physical therapy become simple and not overwhelming?
+  During September 2018-March 2019, my senior design team were tasked with
+  helping VidPT create a mobile app. The app sought to relieve physical
+  therapy pain points such as patients starting their rehab routine late
+  due to medical insurance, trying to understand drawings and instructions
+  for exercises, and help patients feel motivated through their journey.
+  However, the team created an MVP that didn’t have all the features implemented.
+  Now, VidPT is looking for a redesign of the app to attract more users in need
+  of physical therapy and physical therapists.
+</p>
+</div>
+</div>
+
+
+<!--current app-->
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+  <center><img src="assests/vidpt/original.png" class="small pad"></center>
+  <center><p>Figure 1. Original design of the VidPT homescreen</p></center>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+<h4 class="bold vpt">evaluation of current app</h4>
+<p>
+  I talked with the founder, Michael about the features he wanted
+  to implement and evaluated the state of the app.
+  <b>The app has the following problems:<br>
+  •	Limited progress information<br>
+  •	No personalization for solo patients<br>
+  •	No physical therapist interface to connect with patients<br>
+  •	Fails to keep users engaged<br>
+  •	Looks like a regular workout app<br></b>
+
 </p>
 </div>
 </div>
@@ -102,25 +129,13 @@
   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
     <h4 class="vpt bold">goals</h4>
   </div>
-  <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-    <p>
-      Make physical therapy easier to understand
-    </p>
-  </div>
-  <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-    <p>
-      Motivate users through progress tracking
-    </p>
-  </div>
-  <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-    <p>
-      Create a positive community amongst patients
-    </p>
-  </div>
-  <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-    <p>
-      Connect PT's and patients
-    </p>
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <b><p>
+      1. Make physical therapy easier to understand<br>
+      2. Motivate users through progress tracking<br>
+      3. Create a positive community amongst patients<br>
+      4. Connect PT's and patients
+    </p></b>
   </div>
 </div>
 
@@ -130,11 +145,14 @@
 <div class="row">
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 <h4 class="vpt bold">competitive analysis</h4>
-<center><img src="assests/vidpt-ca.png" class="personas"></center>
+<center><img src="assests/vidpt-ca.png" class="personas pad"></center>
+<center><p>Figure 2. Competitive analysis</p></center>
 <p>
-I took a look at direct competitors such as Therapydia and ForceTherapeutics to
-know how what features are included. I also looked at indirect competitors, Nike Training Club
-and 24HR Fitness to view their workout feature. The team decided that we should allow users to do a rehab routine on their own.
+  Before getting started, I decided to <b>compare existing fitness applications to view their features.</b>
+  The team decided that we should <b>allow users to do a rehab routine on their own.</b> Most routines
+  are standard and the routine our users would receive would be created with input from a
+  physical therapist. I decided it would be best to <b>ignore the timer feature.</b> Physical
+  therapy focuses on performing each exercise correctly and we want to prevent injuries.
 </p>
 </div>
 </div>
@@ -149,15 +167,15 @@ and 24HR Fitness to view their workout feature. The team decided that we should 
       surveys and interviews
     </p>
     <p>
-      An online survey was conducted asking former patients about their injury, attending
-      physical therapy, and doing their rehab routine on their own. 30-minute interviews were
+      An <b>online survey</b> was conducted asking former patients about their injury, attending
+      physical therapy, and doing their rehab routine on their own. <b>30-minute interviews</b> were
       conducted with former physical therapy patients and a physical therapist.
     </p>
     <p class="bold">
       findings
     </p>
     <p>
-      I analyzed over 200 survey results and 4 interview transcripts and found the following information.
+      I <b>analyzed over 200 survey results and 4 interview transcripts</b> and found the following information.
     </p>
     <p>  ■	Target audience is between the ages 31-45.</p>
       <p>■	Top issues with the physical therapy process are cost/insurance, communication with the
@@ -166,7 +184,7 @@ and 24HR Fitness to view their workout feature. The team decided that we should 
       <p>■	Rehab routine and intensity is based on the rehab goal of the patient.</p>
 
     <p>
-      I created the following personas to reflect who the VidPT users are.
+      I created the following <b>personas to reflect who the VidPT users are.</b>
     </p>
 
   </div>
@@ -181,13 +199,13 @@ and 24HR Fitness to view their workout feature. The team decided that we should 
 
 <div class="row">
   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    <center><img src="assests/Gary-Busy.png" class="personas"></center>
+    <center><img src="assests/Sandra-understand.png" class="personas"></center>
   </div>
 </div>
 
 <div class="row">
   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    <center><img src="assests/Sandra-understand.png" class="personas"></center>
+    <center><img src="assests/PTRaymond.png" class="personas"></center>
   </div>
 </div>
 
@@ -195,7 +213,8 @@ and 24HR Fitness to view their workout feature. The team decided that we should 
 <div class="row">
   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
     <h4 class="vpt bold">concept designs</h4>
-    <center><img src="assests/vidpt-sketch.png" class="personas"></center>
+    <center><img src="assests/vidpt-sketch.png" class="personas pad"></center>
+    <center><p>Figure 3. Sketches of screen designs</p></center>
   </div>
 </div>
 
@@ -210,7 +229,7 @@ and 24HR Fitness to view their workout feature. The team decided that we should 
 </div>
 <div class="row">
   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    <p>Mid-fidelity prototypes were tested amongst potential users and a physical therapist.
+    <p><b>Low-fidelity prototypes were tested amongst potential users and a physical therapist.</b>
       Usability tests focused on signing up, completing a routine, and viewing patients.
       Examples of how the scenarios were structured can be found below.
     </p>
@@ -218,7 +237,8 @@ and 24HR Fitness to view their workout feature. The team decided that we should 
 </div>
 <div class="row">
   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-    <center><img src="assests/vidpt-wireframe.png" class="solutionpics"></center>
+    <center><img src="assests/vidpt-wireframe.png" class="solutionpics pad"></center>
+    <center><p>Figure 4. Wireframe of homescreen</p></center>
   </div>
   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 my-auto">
     <p>
@@ -246,7 +266,7 @@ and 24HR Fitness to view their workout feature. The team decided that we should 
   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
     <p>
       There was a moment when I thought the design was good enough but that was because I had been working on the
-      flow for so many hours. I conducted a cognitive walkthrough with the same cases from the usability test and
+      flow for so many hours. I conducted a <b>cognitive walkthrough with the same cases from the usability test</b> and
       the main goal of the walkthrough was to see if the users could recognize the next step in the flow.
     </p>
   </div>
@@ -263,10 +283,10 @@ and 24HR Fitness to view their workout feature. The team decided that we should 
 <div class="row">
   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
     <p>
-      The signup process for patients was too long (8-9 screens) and there was no indicator stating
-      where in the process the user was at. My solution is to add an indicator or progress bar and reduce the number
-      of interactions and screens in the process. When testing with the PT, they mentioned that the home page lacked
-      content. When I asked what type of information is prioritized in their day to day work, they mentioned knowing
+      The <b>signup process for patients was too long (8-9 screens)</b> and there was <b>no indicator</b> stating
+      where in the process the user was at. <b>My solution is to add an indicator or progress bar and reduce the number
+      of interactions and screens in the process.</b> When testing with the <b>PT, they mentioned that the home page lacked
+      content.</b> When I asked what type of information is prioritized in their day to day work, they mentioned knowing
       which patients needed to be seen immediately, such as those who were not making progress.
     </p>
   </div>
@@ -282,10 +302,10 @@ and 24HR Fitness to view their workout feature. The team decided that we should 
 
 <div class="row">
   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    <p>-	What information do patients and physical therapists want to know?</p>
+    <b><p>-	What information do patients and physical therapists want to know?</p>
     <p>-	How do we encourage people throughout their recovery process?</p>
     <p>-	How can the rehab routine become understandable and easier to perform?</p>
-    <p>-	Best way to connect physical therapists and patients?</p>
+    <p>-	Best way to connect physical therapists and patients?</p></b>
   </div>
 </div>
 
@@ -302,11 +322,10 @@ and 24HR Fitness to view their workout feature. The team decided that we should 
   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
     <h6 class="bold">use of video</h6>
     <p>
-      Unlike a diagram or an image, looking at a video allows the user to see how the exercise is
-      performed from different angles. The user doesn’t have to try recalling how the therapist
-      performed the move since the video will always be there for reference. The user can pause the
-      video and recollect themselves from trying the move. VidPTs exercise videos have audio which will
-       provide more information on how to properly perform each move.
+      <b>Unlike a diagram or an image, looking at a video allows the user to see how the exercise is
+      performed from different angles</b>. The user doesn’t have to try recalling how the therapist
+      performed the move since the video will always be there for reference. VidPTs exercise videos
+      have audio which will provide more information on how to properly perform each move.
     </p>
   </div>
 </div>
@@ -318,9 +337,9 @@ and 24HR Fitness to view their workout feature. The team decided that we should 
   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 my-auto">
     <h6 class="bold">track progress through weekly surveys</h6>
     <p>
-      After each week, patients will be prompted to take a progress survey that asks about their current pain
-      level, current strength level, and ability to do everyday things. According to our interview with the
-      physical therapist, this is vital information to determine a new routine for patients.
+      After each week, patients will be prompted to <b>take a progress survey that asks about their current pain
+      level, current strength level, and ability to do everyday things</b>. According to our <b>interview with the
+      physical therapist</b>, this is vital information to determine a new routine for patients.
     </p>
     <p>
       There is also a Workout Average Chart that allows users to see how much time they spend doing their
@@ -328,22 +347,24 @@ and 24HR Fitness to view their workout feature. The team decided that we should 
     </p>
   </div>
     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-      <center><img src="assests/vidpt-progress.gif" class="solutionpics"></center>
+      <center><img src="assests/vidpt-progress.gif" class="solutionpics pad"></center>
+      <center><p>Figure 5. Weekly survey and progress tab</p></center>
     </div>
 </div>
 
 <!--3-->
 <div class="row">
   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
-    <center><img src="assests/BragWall.png" class="solutionpics"></center>
+    <center><img src="assests/BragWall.png" class="solutionpics pad"></center>
+    <center><p>Figure 6. Brag Wall tab</p></center>
   </div>
   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6 my-auto">
     <h6 class="bold">brag wall</h6>
     <p>
       A common issue found in our interview and survey data is that physical therapy was
       feeling lonely due to not having people with a similar experience around. The Brag Wall is
-      the community section of the app which allows patients to connect with one another by posting
-      questions, accomplishments, and positive messages.
+      the community section of the app which <b>allows patients to connect with one another by posting
+      questions, accomplishments, and positive messages.</b>
     </p>
   </div>
 </div>
@@ -357,8 +378,8 @@ and 24HR Fitness to view their workout feature. The team decided that we should 
     <p>
       Patients using the app without the PT assistance can edit their routine with a library of color-coded
       exercises that target their specific injury. For each exercise there is a recommended amount of
-      sets/reps which can only be adjusted to a smaller amount. I suggested adding new exercises in the
-      library for a patient if they made progress on the weekly surveys.
+      sets/reps which can only be adjusted to a smaller amount. <b>I suggested adding new exercises in the
+      library for a patient if they made progress on the weekly surveys to mimic how in-person physical therapy.</b>
     </p>
     <p>
        Patients can add their own notes to view during their routine. However, if the patient is
@@ -367,7 +388,8 @@ and 24HR Fitness to view their workout feature. The team decided that we should 
     </p>
   </div>
   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
-    <center><img src="assests/workout.png" class="solutionpics"></center>
+    <center><img src="assests/workout.png" class="solutionpics pad"></center>
+    <center><p>Figure 7. Exercise screen in progress</p></center>
   </div>
 </div>
 
@@ -376,15 +398,17 @@ and 24HR Fitness to view their workout feature. The team decided that we should 
 
 <div class="row">
   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-    <center><img src="assests/pt-patient.gif" class="solutionpics"></center>
+    <center><img src="assests/pt-patient.gif" class="solutionpics pad"></center>
+    <center><p>Figure 8.Physical Therapists viewing their patients</p></center>
   </div>
   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 my-auto">
     <h6 class="bold">physical therapists connect</h6>
     <p>
-      Physical Therapists can monitor their patients progress through the app. They are able to add a
-      patient, edit a patient’s routine, and view their progress. PTs are notified when a patient
+      Physical Therapists can monitor their patients progress through the app. They are <b>able to add a
+      patient, edit a patient’s routine, and view their progress.</b> PTs are notified when a patient
       completes a weekly progress check or not performing well and can view/use those results to
-      make changes to the routine. At the moment, PTs cannot message a patient through the app but
+      make changes to the routine. This information is reflected on the home screen. At the moment,
+      PTs cannot message a patient through the app but
       this feature will be designed for future iterations.
     </p>
   </div>
@@ -400,23 +424,44 @@ and 24HR Fitness to view their workout feature. The team decided that we should 
       As of right now, the project is ongoing and there will be more testing and design changes.
     </p>
     <p>
-      Through this experience, I am learning how to improve my research and testing skills. I gathered
-      great information from former patients but I need to learn more about the physical therapist role.
-      I believe an ethnographic study on physical therapists would help reveal their routine and I can
+      Through this experience, <b>I am learning how to improve my research and testing skills</b>. I gathered
+      great information from former patients but I need to <b>learn more about the physical therapist role.</b>
+      I believe an <b>ethnographic study on physical therapists</b> would help reveal their routine and I can
       learn more about what needs to be improved between the PT-Patient relation. Also, I am learning how
-       to improve the interview protocol to gather relevant information. I am analyzing each question and
-       asking myself what is the purpose of the question and what do I want to get out of it? I will be
-       implementing these new research techniques while the app is still ongoing.
+       to <b>improve the interview protocol to gather relevant information.</b> I am analyzing each question and
+       asking myself what is the purpose of the question and what do I want to get out of it? <b>I will be
+       implementing these new research techniques while the app is still ongoing.</b>
     </p>
   </div>
 </div>
 
+
+<!--project links-->
+<div class="row">
+  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+    <center><a href="vidpt.html">VidPT</a></center>
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+    <center><a href="foodjournal.html">Food Journal</a></center>
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+    <center><a href="ecostat.html">EcoStat</a></center>
+  </div>
 </div>
+
 </div>
 </div>
 
 </body>
 
 
-<footer>Created and Coded by Kimberly Flores, 2020</footer>
+<footer class="footer">
+<center>
+  <h4>Let's Connect!</h4>
+      <a href="mailto:kimbermf@uci.edu"><i class="fas fa-envelope w3-xxlarge"></i></a>
+      <a href="https://github.com/kimberlyflrs"><i class="fab fa-github-square w3-xxlarge"></i></a>
+      <a href="https://www.linkedin.com/in/kimberly-m-flores/"><i class="fab fa-linkedin w3-xxlarge"></i></a>
+
+  <p>Created and Coded by Kimberly Flores, 2020</p></center>
+</footer>
 </html>

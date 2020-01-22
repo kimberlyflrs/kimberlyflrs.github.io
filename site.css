@@ -16,6 +16,9 @@ body.fade-out {
   padding: 5px 50px;
 }
 
+.pad{
+  padding-bottom: 5px;
+}
 
 /*text*/
 h1,h2,h3,h4,h6,p{
@@ -66,9 +69,9 @@ h4{
 
 .footer{
   text-align: middle;
-  min-height: 15vh;
+  min-height: 10vh;
   width: 100%;
-  padding: 16vh 20px 150px 10px;
+  padding: 10vh 20px 80px 10px;
   color: #000000;
 }
 
@@ -76,7 +79,7 @@ h4{
   opacity: 0.5;
 }
 
-.blue, .fa-angle-down{
+.blue, .fab, .fas, .material-icons{
   color: #5EB1BF;
 }
 
@@ -107,4 +110,30 @@ h4{
 .solutionpics{
   max-width:50%;
   height:auto;
+}
+
+.small{
+  max-width:40%;
+  height:auto;
+}
+/*food journal*/
+.fj{
+  color:#FFAB4A;
+}
+
+/*.ecostat*/
+.es{
+  color:#49A388;
+}
+
+.aboutpic{
+  max-width:75%;
+  height:auto;
+}
+
+/*footer*/
+
+footer i{
+  padding: 0px 15px;
+  color:
 }
