@@ -73,7 +73,7 @@ p{
 
 .footer{
   text-align: middle;
-  min-height: 10vh;
+  min-height: 5vh;
   width: 100%;
   padding: 10vh 20px 80px 10px;
   color: #000000;
@@ -139,5 +139,4 @@ p{
 
 footer i{
   padding: 0px 15px;
-  color:
 }
