@@ -140,3 +140,7 @@ p{
 footer i{
   padding: 0px 15px;
 }
+
+.material-icons.md-48 {
+   font-size: 48px;
+  }
