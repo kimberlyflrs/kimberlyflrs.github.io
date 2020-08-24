@@ -13,7 +13,7 @@ body.fade-out {
 }
 
 .row{
-  padding: 5px 50px;
+  padding: 20px 0;
 }
 
 .pad{
@@ -21,26 +21,26 @@ body.fade-out {
 }
 
 /*text*/
-h1,h2,h3,h4,h6,p{
-  font-family: 'Open Sans', sans-serif !important;
+h1,h2,h3,h4,h6{
+  font-family: 'Poppins', sans-serif !important;
+}
+
+p{
+  font-family: 'Roboto', sans-serif !important;
+  line-height: 2.2;
 }
 
 .bold{
   font-weight: bold;
 }
 
-.gray{
-  background-color: #F6F6F6;
+.center{
+  text-align:center;
 }
 
-h4{
-  padding-top: 5px;
+li{
+  padding: 5px 0;
 }
-
-p{
-  line-height: 2.2;
-}
-
 /*home page*/
 .banner{
   height: 100%;
@@ -71,14 +71,6 @@ p{
   color: #000000;
 }
 
-.footer{
-  text-align: middle;
-  min-height: 10vh;
-  width: 100%;
-  padding: 10vh 20px 80px 10px;
-  color: #000000;
-}
-
 #portfolio-links a:hover{
   opacity: 0.5;
 }
@@ -95,40 +87,35 @@ p{
     padding-bottom: 40px;
 }
 
-/*vidpt*/
-
-.vpt{
-  color:#4669DB;
-}
-
 .casephoto{
-  max-width:70%;
+  max-width:95%;
   height: auto;
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
 }
 
-.personas{
-  max-width:80%;
-  height:auto;
+.photo{
+  max-width:85%;
+  height: auto;
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
 }
 
 .solutionpics{
   max-width:50%;
   height:auto;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .small{
   max-width:40%;
   height:auto;
 }
-/*food journal*/
-.fj{
-  color:#FFAB4A;
-}
 
-/*.ecostat*/
-.es{
-  color:#49A388;
-}
 
 .aboutpic{
   max-width:75%;
@@ -136,6 +123,9 @@ p{
 }
 
 /*footer*/
+footer{
+  text-align: center;
+}
 
 footer i{
   padding: 0px 15px;
@@ -144,3 +134,11 @@ footer i{
 .material-icons.md-48 {
    font-size: 48px;
   }
+
+.footer{
+  text-align: middle;
+  min-height: 10vh;
+  width: 100%;
+  padding: 10vh 20px 80px 10px;
+  color: #000000;
+}

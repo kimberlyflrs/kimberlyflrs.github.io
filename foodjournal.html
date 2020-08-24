@@ -23,7 +23,7 @@
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
      <!--fonts-->
-     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
      <script src="effects.js"></script>
     <link rel="shortcut icon" href="plant.ico" />
   </head>
@@ -61,126 +61,151 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <h1 class="fj bold">Food Journal</h1>
-        <h3><p><u>UI, UX Design, UX Research, Front-End Development</u></p></h3>
+        <img src="assests/foodjournal/foodjournal-case-photo.png" class="casephoto"/>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 my-auto">
-        <h2 class="fj bold">Overview</h2>
-        <p>Food Journal is a mobile app that allows users to select
-          multiple input methods to log their food. The purpose of
-          the app is to aid Professor Daniel Epstein in his research
-          project about how self-tracking affects the way people track
-          their food intake.<p>
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 my-auto">
+        <h1 class="bold center">Food Journal: A Research Tool</h1>
+        <p class="bold center">Food Journal is an application that can be run on mobile, 
+          web, Google Home, Amazon Alexa, and Apple watch. I was in charge of designing and 
+          programming the mobile app and personal assistant devices. 
+        <p>
+        <p class="center">Duration: January 2019 - June 2019 </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <p class="bold">Problem</p>
+        <ul>
+          <li>There is no application available that considers all of the possible input methods.</li>
+          <li>Other applications will also have access to user's personal data.</li>
+          <li>We can't access user data from another application unless an API is used.</li>
+        </ul>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-        <center><img src="assests/foodjournal/fjmain.png" class="casephoto"/></center>
+        <p class="bold">Goal</p>
+        <ul>
+          <li>Create an application that accounts all input methods.</li>
+          <li>Make each input method as simple as possible to avoid bias.</li>
+          <li>Allow participants access to their entries for later engagement.</li>
+        </ul>
       </div>
     </div>
 
-
-    <div class="row gray pad">
-      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-        <h5><b>Duration: </b>January 2019-June 2019</h5>
-        <h5><b>Platform </b>Mobile App, Google Home, Amazon Echo</h5>
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-        <h5><b>Skills: </b>User Research, Wireframes, Prototyping, Design, HTML, CSS, JavaScript</h5>
-        <h5><b>Context: </b>Research</h5>
-      </div>
-    </div>
-
-<!--problem statement-->
-<div class="row">
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-<h2 class="bold fj">Problem Statement</h2>
-<p>
-  Through Professor Epstein’s research, we want to discover which
-  logging method people tend to use when tracking food and why they
-  gravitate towards that method. There wasn’t a food tracking mobile
-  app available that had all the input methods the team wanted to research on.
-</p>
-</div>
-</div>
-
-
-
-<!--different inputs-->
 <div class="row">
   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    <h2 class="fj bold">What Are The Different Input Methods?</h2>
+    <h3 class="bold">Intro</h3>
+    <p>Food Journal is a mobile app that allows users to select multiple 
+      input methods to log their food. The purpose of the app is to aid 
+      Professor Daniel Epstein from the University of Caifornia, Irvine Informatics Department 
+      in his research project about how self-tracking affects the way people track their food intake.
+    </p>
   </div>
 </div>
 
 <div class="row">
-  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-    <center><i class="fas fa-font fa-3x"></i>
-    <p>Text</p></center>
-  </div>
-
-  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-    <center><i class="fas fa-image fa-3x"></i>
-    <p>Image</p></center>
-  </div>
-
-  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-    <center><i class="fas fa-microphone fa-3x"></i>
-    <p>Voice</p></center>
-  </div>
-</div>
-
-<div class="row">
-  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-    <center><i class="fas fa-database fa-3x"></i>
-    <p>Database</p></center>
-  </div>
-
-  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-    <center><i class="fas fa-barcode fa-3x"></i>
-    <p>Barcode</p></center>
-  </div>
-
-  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-    <center><i class="fas fa-link fa-3x"></i>
-    <p>Link</p></center>
-  </div>
-
-  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-    <center><i class="material-icons md-48">devices_other</i>
-    <p>Assistive Devices</p></center>
-  </div>
-</div>
-
-
-<!--goals-->
-<div class="row gray">
   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    <h2 class="fj bold">Goals</h2>
-  </div>
-  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    <p>
-      1. Keep the <b>logging process simple</b><br>
-      2. <b>Provide logging information</b> for users and research team<br>
-      3. <b>Allow assistive device interactions to be familiar</b>
+    <h3 class="bold">My Role</h3>
+    <p>I was responsible for creating an interface for the mobile app and personal assistant devices. 
+      I conducted research on food tracking apps to understand 
+      how they log entries. I tested my designs for usability, 
+      created the information architecture with my team, and 
+      coded the application for use. 
     </p>
   </div>
 </div>
 
 
+<div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h2 class="bold">Design Process</h2>
+        <p>Add image here</p>
+      </div>
+    </div>
+
+<!--product requirement-->
 <div class="row">
   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    <h2 class="fj bold">Research</h2>
+    <h2 class="bold">1. Project Requirements</h2>
+    <p>After a stakeholder meeting, we wanted to create an application where</p>
+    <ul>
+      <li>Only participants have access to the application</li>
+      <li>Keep the logging process as simple as possible for mobile and personal assistant devices</li>
+    </ul>
+
+    <p>Design Actions</p>
+    <ul>
+      <li>How can we make the logging process simple?</li>
+      <ul>
+        <li>Have a log button on the home screen. This is the main priority of the application and we need to emphasize it.</li>
+        <li>Allow participants to add an entry.  </li>
+        <li>Show how current entry before submitting.</li>
+        <li>Keep each input short</li>
+      </ul>
+    </ul>
   </div>
 </div>
 
-<!--source of inspiration-->
+
+<!--Logging methods-->
 <div class="row">
   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    <h3 class="bold">Competitive Analysis</h3>
-    <center><img src="assests/foodjournal/fj-inspo.png" class="solutionpics pad"></center>
-    <center><p>Figure 1. Lose It(left), Myfitnesspal(middle), Instagram(right)</p></center>
+    <h2 class="bold">2. Research</h2>
+    <h4>What Are The Different Input Methods?</h4>
+  </div>
+</div>
+
+<div class="row center">
+  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+    <i class="fas fa-font fa-3x"></i>
+    <p>Text</p>
+  </div>
+
+  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+    <i class="fas fa-image fa-3x"></i>
+    <p>Image</p>
+  </div>
+
+  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+    <i class="fas fa-microphone fa-3x"></i>
+    <p>Voice</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+    <i class="fas fa-database fa-3x"></i>
+    <p>Database</p>
+  </div>
+
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+    <i class="fas fa-barcode fa-3x"></i>
+    <p>Barcode</p>
+  </div>
+
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+    <i class="fas fa-link fa-3x"></i>
+    <p>Link</p>
+  </div>
+
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+    <i class="material-icons md-48">devices_other</i>
+    <p>Assistive Devices</p>
+  </div>
+</div>
+
+
+<!--goals-->
+<div class="row">
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <h4 class="bold">Competitive Analysis</h4>
+    <img src="assests/foodjournal/fj-inspo.png" class="photo">
+    <p class="center">Figure 1. Lose It(left), Myfitnesspal(middle), Instagram(right)</p>
   </div>
 </div>
   <div class="row">
@@ -197,18 +222,18 @@
 <!--logging virtual assistant-->
 <div class="row">
   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    <h3 class="bold">How Are People Logging Over Virtual Assistants?</h3>
+    <h4>How Are People Logging Over Virtual Assistants?</h4>
     <p>
-      I first needed to understand how Google Home and Amazon Alexa work. I <b>dedicated
-      time reading documentation and testing different apps</b> that connect with these devices.
-      <b>Voice commands have a pattern</b> where there needs to be a start for a command, an action,
+      I needed to understand how Google Home and Amazon Alexa work. I dedicated
+      time reading documentation and testing different apps that connect with these devices.
+      Voice commands have a pattern where there needs to be a start for a command, an action,
       and other information.
     </p>
     <p>
       Ex: “Hey Google, play some music on Spotify”
     </p>
     <p>
-      I needed to <b>define which actions should be allowed through voice</b> and how many different
+      I needed to define which actions should be allowed through voice and how many different
        ways can the user say the same action. We wanted to add a sign in action, logging action,
        and a logout action.
     </p>
@@ -220,60 +245,80 @@
 <!--sitemaps-->
 <div class="row">
   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    <h2 class="fj bold">Assistive Devices and Mobile App Sitemap</h2>
-  </div>
-</div>
-<div class="row">
-  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    <center><img src="assests/foodjournal/ADsitemap.png" class="solutionpics"></center>
-  </div>
-  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    <center><img src="assests/foodjournal/Mobilesitemap.png" class="solutionpics"></center>
-    <center><p>Figure 2. Sitemaps for virtual assitants and mobile app</p></center>
-  </div>
+    <h2 class="bold">3. Assistive Devices and Mobile App Sitemap</h2>
+    <img src="assests/foodjournal/ADsitemap.png" class="photo">
+    <img src="assests/foodjournal/Mobilesitemap.png" class="photo">
+    <p class="center">Figure 2. Sitemaps for virtual assitants and mobile app</p>
     <p>
-      I created sitemaps for the app and assistive devices for the <b>team to understand
-      the structure of Food Journal</b> and how users would navigate. I collaborated with
-      the team to layout which screens needed to be developed and <b>estimate how long
-      the development process would take.</b>
+      I created sitemaps for the app and assistive devices for the team to 
+      understand the structure of Food Journal and how users 
+      would navigate. It helped us to know which screens needed 
+      to be developed and estimate how long the development 
+      process would take.
     </p>
   </div>
+</div>
+
+<!--design iterations-->
+<div class="row">
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <h2 class="bold">4. Design Iterations</h2>
+    <p>After designing the sitemap, I started 
+      sketching rough wireframes of the application and 
+      started coding the first version for personal 
+      assistive devices.</p>
+    <h4>Low Fidelity Protoype</h4>
+    <h4>Mid Fidelity Protoype</h4>
+  </div>
+</div>
+
 
 
 <!--testing-->
 <div class="row">
   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    <h2 class="fj bold">Testing</h2>
-  </div>
-</div>
-<!--usability testing-->
-<div class="row">
-  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    <h3 class="bold">Usability Test And Results</h3>
-  </div>
+    <h2 class="bold">5. Testing</h2>
+    <h4 >Usability Test</h4>
+    <p>Due to the timeframe of the project, I tested the 
+      low-fidelity prototype for the mobile app and assistant 
+      devices with my team. I tested the logging process with 
+      my team. The original plan for logging was to have the 
+      user select all of the input methods, complete each one, 
+      and then go to a review page before submitting the entry.</p>
+    <p>For the assistive devices, users would open the app 
+      and say “Log [food item(s)]”. Then would be repeated 
+      what they just logged by the device.</p>
+
+    <h4>Heuristic Evaluation and WCAG Guidelines</h4>
+    <p>I compared the prototype against Nielsons heuristics 
+      and WCAG guidelines to see if the mobile application 
+      meets their criteria.</p>
+
+    <h4>Results</h4>
+  
+    </div>
 </div>
 <div class="row">
   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-    <center><img src="assests/foodjournal/LogFoodSelected.png" class="solutionpics"></center>
-    <center><p>Figure 3. Wireframe of original logging process</p></center>
+    <img src="assests/foodjournal/LogFoodSelected.png" class="photo">
+    <p class="center">Figure 3. Wireframe of original logging process</p>
   </div>
   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 my-auto">
-    <p>
-      Due to the timeframe of the project, I tested the low-fidelity prototype with my team.
-      When I presented the wireframes for the <b>logging process, the
-      original idea was to have the user select all of the input methods, complete
-      each one, and then go to the review page.</b> After discussing with my team, I
-      realized that my original idea <b>goes against Nielson’s Heuristics of Design
-      which are feedback and recognition vs recall</b>. The original design makes it
-      hard for the user to remember which inputs were chosen especially if they
-      picked multiple options.
-    </p>
-    <p>
-      We decided it would be <b>best for the user to pick one input method,
-      complete it, and then go back to a review page</b> where they can view the
-      input or add another option. This approach helps users know what action
-      was chosen so far.
-    </p>
+    <ul>
+      <li>Logging on Google Home and Amazon Alexa was simple.</li>
+      <li>Difficult to remember logging inputs. The logging 
+        method makes it difficult for users to remember which 
+        inputs were chosen especially if they picked multiple 
+        options. Goes against Recognition vs Recall Heuristic.</li>
+      <li>No feedback when logging. When logging, it doesn’t 
+        tell the user which step they are on and have to wait 
+        until they get to the review page. Goes against 
+        Feedback heuristic.</li>
+      <li>Logging button not noticeable. My team said the 
+        logging button looks more like a logo.</li>
+      <li>Color Palette did not pass WCAG guidelines</li>
+    </ul>
+
   </div>
 </div>
 
@@ -281,50 +326,38 @@
 <!--redesigning the prototype-->
 <div class="row">
   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    <h2 class="fj bold">Redesigning The Prototype</h2>
+    <h2 class="bold">6. Iteration Based on Findings</h2>
   </div>
 </div>
 <div class="row">
   <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-    <center><img src="assests/foodjournal/LoginPage.png" class="solutionpics"></center>
+    <img src="assests/foodjournal/LoginPage.png" class="photo">
   </div>
   <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-    <center><img src="assests/foodjournal/HomeScreen.png" class="solutionpics"></center>
+    <img src="assests/foodjournal/HomeScreen.png" class="photo">
   </div>
   <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-    <center><img src="assests/foodjournal/Entry.png" class="solutionpics"></center>
+    <img src="assests/foodjournal/Entry.png" class="photo">
   </div>
 </div>
 <div class="row">
   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    <center><p>Figure 4. Original hi-fidelity mockups for Food Journal</p></center>
+    <p class="center">Figure 4. Original hi-fidelity mockups for Food Journal</p>
+    <h4>Logging Flow</h4>
     <p>
-      The user interface of the first prototype I made <b>had the functionality
-      needed to conduct the research</b> but I decided to <b>cross-check it with
-      platform conventions, WCAG guidelines, and Nielsons heuristics for UI.</b>
-      The color palette did not pass the color contrast. Also, the Log a Meal
-      button didn’t look like a button but instead a logo. The
-      journal icon on the navigation bar was also confusing to a first time user
-      as it is used less commonly. I feared that the participants wouldn’t be able
-      to make entries without help from someone else.
+      After talking to my team for ideas, we decided it would 
+      be best for the user to pick one input method, complete 
+      it, and return to a review page where they can either 
+      submit or add another method.
     </p>
+    <h4>Palette Change</h4>
     <p>
-      In order to improve the design, I needed to <b>make an appropriate button, change icons, and
-      choose colors that were not high in contrast</b>. Making an app aesthetically
-      pleasing and understandable will attract users to keep using the app and we
-      want our participants to not miss a day of logging.
+      The bright colors proved to be distracting so I changed 
+      it to a softer color palette. Making an app aesthetically 
+      pleasing and understandable will attract users to keep 
+      using the app and we want our participants to not miss 
+      a day of logging.
     </p>
-  </div>
-</div>
-
-
-<!--focus areas-->
-<div class="row gray">
-  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    <h4 class="fj bold">Focus Areas</h4>
-    <p>-	Provide appropriate feedback throughout the logging process</p>
-    <p>-	Make the logging button more obvious</p>
-    <p>-	Redesign the user interface of the app</p>
   </div>
 </div>
 
@@ -332,18 +365,18 @@
 <!--solutions-->
 <div class="row">
   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    <h2 class="fj bold">Solutions</h2>
+    <h2 class="bold">7. Design Outcome</h2>
   </div>
 </div>
 
 <!--1-->
 <div class="row">
   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-    <center><img src="assests/foodjournal/LoginScreen.png" class="solutionpics pad"></center>
-    <center><p>Figure 5. Login Screen</p></center>
+    <img src="assests/foodjournal/LoginScreen.png" class="photo">
+    <p class="center">Figure 5. Login Screen</p>
   </div>
   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 my-auto">
-    <h3 class="bold">User Login</h3>
+    <h4 class="bold">User Login</h4>
     <p>
       To track individual data from participants, each user will be assigned
       a unique id to log in. Since the participant group is small, there is no need for a
@@ -358,35 +391,35 @@
 
 <div class="row">
   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 my-auto">
-    <h3 class="bold">View Past Entries</h3>
+    <h4 class="bold">View Past Entries</h4>
     <p>
       Users can view past entries through the calendar tab.
-      Having previous entries available to users will <b>allow them to identify
-      any patterns when logging</b> and help them <b>engage in conversation with
-      researchers</b> after the study.
+      Having previous entries available to users will allow them to identify
+      any patterns when logging and help them engage in conversation with
+      researchers after the study.
     </p>
   </div>
     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-      <center><img src="assests/foodjournal/fj-calendar.gif" class="solutionpics pad"></center>
-      <center><p>Figure 6. Calendar Screen</p></center>
+      <img src="assests/foodjournal/fj-calendar.gif" class="photo">
+      <p class="center">Figure 6. Calendar Screen</p>
     </div>
 </div>
 
 <!--3-->
 <div class="row">
-  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
-    <center><img src="assests/foodjournal/fj-logging.gif" class="solutionpics pad"></center>
-    <center><p>Figure 7. Logging Process</p></center>
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <img src="assests/foodjournal/fj-logging.gif" class="photo">
+    <p class="center">Figure 7. Logging Process</p>
   </div>
-  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6 my-auto">
-    <h3 class="bold">Different Logging Methods</h6>
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 my-auto">
+    <h4 class="bold">Different Logging Methods</h4>
     <p>
       Users make an entry by selecting an input method and review it on the
       confirmation page. The user is then able to add more inputs or confirm the post.
     </p>
     <p>
-      Each input takes one to two steps to complete and it was <b>important to keep the
-      methods with the same amount of effort in order to prevent any skewed results.</b>
+      Each input takes one to two steps to complete and it was important to keep the
+      methods with the same amount of effort in order to prevent any skewed results.
   </div>
 </div>
 
@@ -394,69 +427,81 @@
 <!--4-->
 
 <div class="row">
-  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6 my-auto">
-    <h3 class="bold">Virtual Assistants (Google Home and Amazon Alexa)</h3>
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 my-auto">
+    <h4 class="bold">Virtual Assistants (Google Home and Amazon Alexa)</h4>
     <p>
       Users can log their food by using Google Home or Amazon Echo. By saying
       "Log", the user starts to make an entry. All entries are viewable through
       the app.
     </p>
   </div>
-  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
-    <center><img src="assests/foodjournal/assist.png" class="personas pad"></center>
-    <center><p>Figure 8. Assistive Device interface</p></center>
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <img src="assests/foodjournal/assist.png" class="photo">
+    <p class="center">Figure 8. Assistive Device interface</p>
   </div>
 </div>
 
+
+<!--Future iteration-->
+<div class="row">
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 my-auto">
+    <h2 class="bold">Future Iteration</h4>
+    <p>
+      If I could rework the design, I would add a 
+      delete/edit entry feature on assistive devices 
+      and the mobile app. It would give users more 
+      control of their entries and undo a mistake. 
+    </p>
+  </div>
+</div>
 
 
 <!--reflections-->
 <div class="row">
   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    <h2 class="fj bold">Reflection</h2>
-    <p>
-      I learned how important it is to get the perspective of developers when designing UX/UI solutions.
-      For example, I learned that <b>code can limit what can be done in UI designs</b> if there is a specific
-      framework being used. Always know what tools are being used to base the designs around that.
-      It is also extremely important to <b>cross-check the designs with platform documentation
-      (Android and Apple standards) and Web Content Accessibility Guidelines (WCAG).</b>
-    </p>
-    <p>
-      If I could rework the design, I would add a delete/edit entry feature on assistive devices and
-      the mobile app. It would <b>give users more control of their entries</b> and undo a mistake. If more
-      time was allotted, <b>I would’ve conducted user research to know what users like and dislike
-      about self-tracking apps to know how to structure the interface better.</b>
-    </p>
+    <h2 class="bold">What I Learned</h2>
+    <ul>
+      <li>User Research from the start saves time. I believe 
+        that if I were to ask users their thoughts on 
+        self-tracking apps, it would have allowed me to 
+        structure the interface better.</li>
+      <li>Cross-checking designs with Web and platform 
+        guidelines will improve interface for all platforms.</li>
+      <li>Sitemaps and information architectures allow for 
+        better understanding on how an application will work. 
+        Thanks to these visuals, I was able to know how each 
+        screen would interact with one another and what 
+        features were possible.</li>
+    </ul>
   </div>
 </div>
 
 
 <!--project links-->
-<div class="row">
+<div class="row center">
   <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-    <center><a href="vidpt.html">VidPT</a></center>
+    <a href="vidpt.html">VidPT</a>
   </div>
   <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-    <center><a href="foodjournal.html">Food Journal</a></center>
+    <a href="foodjournal.html">Food Journal</a>
   </div>
   <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-    <center><a href="ecostat.html">EcoStat</a></center>
+    <a href="ecostat.html">EcoStat</a>
   </div>
 </div>
 
 </div>
 </div>
-
-</body>
-
 
 <footer class="footer">
-<center>
   <h4>Let's Connect!</h4>
       <a href="mailto:kimbermf@uci.edu"><i class="fas fa-envelope fa-3x"></i></a>
       <a href="https://github.com/kimberlyflrs"><i class="fab fa-github-square fa-3x"></i></a>
       <a href="https://www.linkedin.com/in/kimberly-m-flores/"><i class="fab fa-linkedin fa-3x"></i></a>
 
-  <p>Created and Coded by Kimberly Flores, 2020</p></center>
+  <p>Created and Coded by Kimberly Flores, 2020</p>
 </footer>
+
+</body>
+
 </html>
